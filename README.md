@@ -1,8 +1,20 @@
-# fpyy_proj_template
+# Trawling 4 PACE 
+## Mapping fishing zones using PACE optical data 
+## Collaborators 
+* Mary Kate Munley (MMunley2)
+* Justine Whitaker (jwhiteaker-cgl)
+* Punya Puthukulangara (punyaravichandran)
+* Frederic Bonou (FREDERICBONOU)
+* Victoria Abunaw (opisthoproctus)
+* Haley Synan (hsynan)
+## Planning 
+* Initial idea: 
+* [Brainstorming google doc](#https://docs.google.com/document/d/1xNHTZDroEdn7dWCZV7hvGdUV4cpnyijDJrtq9_-6brM/edit?tab=t.ggfqs8b05i7f)
+* Ideation Presentation: Add link
+* Slack channel: fp25_proj_name
+* Project google drive: Add link
+* Final presentation: Add link
 
-Template for starting Fish-PACE project repos. 
-
-This repo is an example of how teams can structure their project repositories and format their project README.md file, but feel free to adapt as suits your needs.
 
 **Folder Structure**
 
