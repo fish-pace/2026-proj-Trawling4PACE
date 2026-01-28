@@ -4,7 +4,7 @@
 | Name                | Github username               |
 |---------------------|---------------------|
 | Mary Kate Munley       | MMunley2 |
-| Justine Whitaker      | jwhiteaker-cgl        |
+| Justine Whitaker      | jwhitaker-cgl        |
 | Punya Puthukulangara      | punyaravichandran        |
 | Victoria Abunaw      | opisthoproctus       |
 | Haley Synan      | hsynan       |
