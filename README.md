@@ -8,8 +8,8 @@
 | Punya Puthukulangara      | punyaravichandran        |
 | Victoria Abunaw      | opisthoproctus       |
 | Haley Synan      | hsynan       |
-| Leandro Machado | leandrometeoro |
 | Frederic Bonou | FREDERICBONOU |
+| Leandro Machado | leandrometeoro |
 
 
 ## Background
