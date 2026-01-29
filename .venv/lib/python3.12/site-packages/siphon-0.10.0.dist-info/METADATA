@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: siphon
+Version: 0.10.0
+Summary: A collection of Python utilities for interacting with the Unidata technology stack.
+Maintainer-email: Siphon Developers <support-python@unidata.ucar.edu>
+License: BSD-3-Clause
+Project-URL: homepage, https://github.com/Unidata/siphon
+Project-URL: Documentation, https://unidata.github.io/siphon/
+Project-URL: Release Notes, https://github.com/Unidata/siphon/releases
+Project-URL: Bug Tracker, https://github.com/Unidata/siphon/issues
+Project-URL: Source Code, https://github.com/Unidata/siphon
+Keywords: meteorology,weather
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.txt
+Requires-Dist: beautifulsoup4>=4.9.1
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: pandas>=1.4.3
+Requires-Dist: protobuf>=3.20.0
+Requires-Dist: requests>=2.30.0
+Provides-Extra: doc
+Requires-Dist: sphinx>=3.0; extra == "doc"
+Requires-Dist: sphinx-gallery>=0.4; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: siphon[examples]; extra == "doc"
+Provides-Extra: examples
+Requires-Dist: matplotlib>=3.5; extra == "examples"
+Requires-Dist: cartopy>=0.21; extra == "examples"
+Requires-Dist: netCDF4; extra == "examples"
+Requires-Dist: metpy; extra == "examples"
+Provides-Extra: test
+Requires-Dist: pytest>=7.0; extra == "test"
+Requires-Dist: netCDF4>=1.5.8; extra == "test"
+Requires-Dist: vcrpy>=4.3.1; extra == "test"
+Requires-Dist: siphon[extras]; extra == "test"
+Provides-Extra: extras
+Requires-Dist: xarray>=2022.6.0; extra == "extras"
+
+Siphon
+======
+
+|License| |PRWelcome|
+
+|Docs| |PyPI| |Conda|
+
+|CodeCov|
+
+|Codacy|
+
+
+.. |License| image:: https://img.shields.io/pypi/l/siphon.svg
+    :target: https://pypi.python.org/pypi/siphon/
+    :alt: License
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/siphon.svg
+    :target: https://pypi.python.org/pypi/siphon/
+    :alt: PyPI Package
+
+.. |Conda| image:: https://anaconda.org/conda-forge/siphon/badges/version.svg
+    :target: https://anaconda.org/conda-forge/siphon
+    :alt: Conda Package
+
+.. |CodeCov| image:: https://codecov.io/github/Unidata/siphon/coverage.svg?branch=main
+    :target: https://codecov.io/github/Unidata/siphon?branch=main
+    :alt: Code Coverage Status
+
+.. |Codacy| image:: https://api.codacy.com/project/badge/grade/ebacd20b84ab4673bd6cd34f65c48af6
+    :target: https://www.codacy.com/app/Unidata/siphon
+    :alt: Codacy code issues
+
+.. |Docs| image:: https://img.shields.io/badge/docs-stable-brightgreen.svg
+    :target: http://unidata.github.io/siphon
+    :alt: Latest Docs
+
+.. |PRWelcome| image:: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=round-square
+    :target: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
+    :alt: PRs Welcome
+
+Siphon is a collection of Python utilities for downloading data from Unidata
+data technologies. See our `support page`__ for ways to get help with Siphon.
+
+__ https://github.com/Unidata/siphon/blob/main/SUPPORT.md
+
+Siphon follows `semantic versioning <https://semver.org>`_ in its version number. With our
+current 0.x version, that implies that Siphon's APIs (application programming interfaces) are
+still evolving (we won't break things just for fun, but many things are still changing as we
+work through design issues). Also, for a version `0.x.y`, we change `x` when we
+release new features, and `y` when we make a release with only bug fixes.
+
+We support Python >= 3.7.
+
+Important Links
+---------------
+
+- Source code repository: https://github.com/Unidata/siphon
+- HTML Documentation: http://unidata.github.io/siphon/
+- Unidata Python Gallery: https://unidata.github.io/python-gallery/
+- Issue tracker: http://github.com/Unidata/siphon/issues
+- "python-siphon" tagged questions on Stack Overflow: https://stackoverflow.com/questions/tagged/python-siphon
+- Gitter chat room: https://gitter.im/Unidata/siphon
+
+Dependencies
+------------
+
+- requests>=1.2
+- numpy>=1.8
+- protobuf>=3.0.0a3
+- beautifulsoup4>=4.6
+- pandas
+
+Developer Dependencies
+----------------------
+
+- pytest
+- vcrpy
+- flake8

@@ -1,0 +1,4 @@
+[console_scripts]
+gh-scoped-creds = gh_scoped_creds:main
+github-app-user-auth = gh_scoped_creds:main
+
