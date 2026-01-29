@@ -1,0 +1,9 @@
+
+pandas
+numpy
+plotly>=5.0.0
+ipyfilechooser
+cmocean
+ipywidgets==8.1.1
+jupyterlab_widgets==3.0.9
+jupyterlab>=4.0.0
