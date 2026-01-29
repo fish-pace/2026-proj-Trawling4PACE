@@ -9,6 +9,8 @@
 | Victoria Abunaw      | opisthoproctus       |
 | Haley Synan      | hsynan       |
 | Leandro Machado | leandrometeoro |
+| Frederic Bonou | FREDERICBONOU |
+
 
 ## Background
 
