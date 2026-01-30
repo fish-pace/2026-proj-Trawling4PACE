@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+Ridge,SURFTEMP,random,overfit,train,R²,0.929128025542824
+Ridge,SURFTEMP,random,overfit,train,RMSE,0.9365315193466089
+Ridge,SURFTEMP,random,overfit,train,MAE,0.625842195990454
+Ridge,SURFTEMP,random,overfit,train,Explained Var,0.929128025542824
+Ridge,SURFTEMP,random,overfit,test,R²,0.920607852895881
+Ridge,SURFTEMP,random,overfit,test,RMSE,0.9751675119087222
+Ridge,SURFTEMP,random,overfit,test,MAE,0.6407883693956211
+Ridge,SURFTEMP,random,overfit,test,Explained Var,0.9206268155495189

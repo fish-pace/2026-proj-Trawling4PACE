@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,train,R²,0.9991235172349772
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,train,RMSE,0.081453106974388
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,train,MAE,0.03554251164949082
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,train,Explained Var,0.9991235172349772
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,test,R²,0.8919480378937974
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,test,RMSE,1.527859316232273
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,test,MAE,0.9196424760791854
+ExtraTrees,SURFTEMP,max_distance,max_time_dist,test,Explained Var,0.8920391096805584

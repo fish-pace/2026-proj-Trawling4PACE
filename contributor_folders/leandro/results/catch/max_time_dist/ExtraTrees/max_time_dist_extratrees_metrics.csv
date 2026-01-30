@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,train,R²,0.08045645751793329
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,train,RMSE,0.8046219270825875
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,train,MAE,0.6389701289709012
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,train,Explained Var,0.0804564575179334
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,test,R²,0.01650293633103772
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,test,RMSE,0.792281196218216
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,test,MAE,0.6366006698424264
+ExtraTrees,EXPCATCHNUM_log,max_distance,max_time_dist,test,Explained Var,0.016890142530161745

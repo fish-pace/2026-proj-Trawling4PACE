@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+Lasso,SURFTEMP,max_distance,max_time_dist,train,R²,0.8658178443716555
+Lasso,SURFTEMP,max_distance,max_time_dist,train,RMSE,1.007820868302055
+Lasso,SURFTEMP,max_distance,max_time_dist,train,MAE,0.6776734139734831
+Lasso,SURFTEMP,max_distance,max_time_dist,train,Explained Var,0.8658178443716555
+Lasso,SURFTEMP,max_distance,max_time_dist,test,R²,0.8881663806506283
+Lasso,SURFTEMP,max_distance,max_time_dist,test,RMSE,1.5543657857177173
+Lasso,SURFTEMP,max_distance,max_time_dist,test,MAE,0.9671206550780964
+Lasso,SURFTEMP,max_distance,max_time_dist,test,Explained Var,0.9026588544216768

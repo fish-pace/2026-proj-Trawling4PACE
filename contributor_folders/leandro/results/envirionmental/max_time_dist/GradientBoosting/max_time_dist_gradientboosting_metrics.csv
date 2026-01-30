@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,train,R²,0.9992830178908599
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,train,RMSE,0.07366990739576199
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,train,MAE,0.052924590943804965
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,train,Explained Var,0.9992830379518429
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,test,R²,0.8358011558620819
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,test,RMSE,1.8834412839908565
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,test,MAE,1.1130771412892047
+GradientBoosting,SURFTEMP,max_distance,max_time_dist,test,Explained Var,0.8361082515430989

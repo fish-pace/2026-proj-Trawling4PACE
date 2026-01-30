@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+KNN,SURFTEMP,random,overfit,train,R²,1.0
+KNN,SURFTEMP,random,overfit,train,RMSE,3.8795148783986736e-16
+KNN,SURFTEMP,random,overfit,train,MAE,1.5554252400136905e-16
+KNN,SURFTEMP,random,overfit,train,Explained Var,1.0
+KNN,SURFTEMP,random,overfit,test,R²,0.9970028262651132
+KNN,SURFTEMP,random,overfit,test,RMSE,0.1894725977676922
+KNN,SURFTEMP,random,overfit,test,MAE,0.025112748835683735
+KNN,SURFTEMP,random,overfit,test,Explained Var,0.9970129877767423

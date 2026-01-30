@@ -1,0 +1,23 @@
+ML Model Summary
+==================================================
+Model: ElasticNet
+Target: EXPCATCHNUM_log
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad', 'BOTSALIN', 'BOTTEMP', 'SURFTEMP', 'SURFSALIN', 'pace_carbon_phyto_log', 'pace_carbon_phyto_grad_log', 'pace_chlor_a_log', 'pace_chlor_a_grad_log', 'pace_poc_log', 'pace_Kd_490', 'pace_poc_grad_log']
+Parameters: {'alpha': 1.0, 'l1_ratio': 0.5}
+Split Strategy: random (overfit)
+
+Metrics:
+  TRAIN:
+    R²: 0.0000
+    RMSE: 0.8365
+    MAE: 0.6679
+    Explained Var: 0.0000
+  TEST:
+    R²: -0.0026
+    RMSE: 0.7838
+    MAE: 0.6433
+    Explained Var: 0.0000
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.0026
+  Status: GOOD GENERALIZATION

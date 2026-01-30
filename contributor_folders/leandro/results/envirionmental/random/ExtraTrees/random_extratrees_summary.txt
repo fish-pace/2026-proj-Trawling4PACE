@@ -1,0 +1,31 @@
+ML Model Summary
+==================================================
+Model: ExtraTrees
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'n_estimators': 100, 'max_depth': 15, 'min_samples_split': 5}
+Split Strategy: random_islands (random)
+
+Split Info:
+  Train samples: 3471
+  Test samples: 520
+  Train islands: 14
+  Test islands: 4
+  Avg distance (hours): 2848.8
+  Min distance (hours): 40.5
+
+Metrics:
+  TRAIN:
+    R²: 0.9996
+    RMSE: 0.0738
+    MAE: 0.0298
+    Explained Var: 0.9996
+  TEST:
+    R²: 0.6552
+    RMSE: 0.9115
+    MAE: 0.5715
+    Explained Var: 0.7172
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.3444
+  Status: HIGH OVERFITTING

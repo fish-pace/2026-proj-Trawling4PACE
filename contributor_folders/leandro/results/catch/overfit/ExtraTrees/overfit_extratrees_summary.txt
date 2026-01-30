@@ -1,0 +1,23 @@
+ML Model Summary
+==================================================
+Model: ExtraTrees
+Target: EXPCATCHNUM_log
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad', 'BOTSALIN', 'BOTTEMP', 'SURFTEMP', 'SURFSALIN', 'pace_carbon_phyto_log', 'pace_carbon_phyto_grad_log', 'pace_chlor_a_log', 'pace_chlor_a_grad_log', 'pace_poc_log', 'pace_Kd_490', 'pace_poc_grad_log']
+Parameters: {'n_estimators': 100, 'max_depth': 15, 'min_samples_split': 5}
+Split Strategy: random (overfit)
+
+Metrics:
+  TRAIN:
+    R²: 0.0940
+    RMSE: 0.7962
+    MAE: 0.6263
+    Explained Var: 0.0940
+  TEST:
+    R²: -0.0445
+    RMSE: 0.8000
+    MAE: 0.6649
+    Explained Var: -0.0401
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.1384
+  Status: MODERATE OVERFITTING

@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+Lasso,EXPCATCHNUM_log,random_islands,random,train,R²,0.0
+Lasso,EXPCATCHNUM_log,random_islands,random,train,RMSE,0.8147521823022646
+Lasso,EXPCATCHNUM_log,random_islands,random,train,MAE,0.6567417525079436
+Lasso,EXPCATCHNUM_log,random_islands,random,train,Explained Var,0.0
+Lasso,EXPCATCHNUM_log,random_islands,random,test,R²,-0.027086540458435948
+Lasso,EXPCATCHNUM_log,random_islands,random,test,RMSE,0.8786991223791236
+Lasso,EXPCATCHNUM_log,random_islands,random,test,MAE,0.6604437886006422
+Lasso,EXPCATCHNUM_log,random_islands,random,test,Explained Var,1.1102230246251565e-16

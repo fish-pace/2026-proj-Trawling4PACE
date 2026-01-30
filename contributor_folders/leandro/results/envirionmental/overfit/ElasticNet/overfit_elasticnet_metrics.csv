@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+ElasticNet,SURFTEMP,random,overfit,train,R²,0.9027429938764303
+ElasticNet,SURFTEMP,random,overfit,train,RMSE,1.0970983969546222
+ElasticNet,SURFTEMP,random,overfit,train,MAE,0.7152507713715912
+ElasticNet,SURFTEMP,random,overfit,train,Explained Var,0.9027429938764303
+ElasticNet,SURFTEMP,random,overfit,test,R²,0.8968478892060865
+ElasticNet,SURFTEMP,random,overfit,test,RMSE,1.1115512980787163
+ElasticNet,SURFTEMP,random,overfit,test,MAE,0.7357799485490775
+ElasticNet,SURFTEMP,random,overfit,test,Explained Var,0.8968519057026233

@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,train,R²,0.07977402064030281
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,train,RMSE,0.8049204457546484
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,train,MAE,0.6390485666324299
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,train,Explained Var,0.07979544067214472
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,test,R²,0.016417694192542243
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,test,RMSE,0.7923155299659418
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,test,MAE,0.6341474160738952
+RandomForest,EXPCATCHNUM_log,max_distance,max_time_dist,test,Explained Var,0.016420913113199487

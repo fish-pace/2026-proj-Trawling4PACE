@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+RandomForest,SURFTEMP,max_distance,max_time_dist,train,R²,0.9980853513102554
+RandomForest,SURFTEMP,max_distance,max_time_dist,train,RMSE,0.12038725553157509
+RandomForest,SURFTEMP,max_distance,max_time_dist,train,MAE,0.019079899414983927
+RandomForest,SURFTEMP,max_distance,max_time_dist,train,Explained Var,0.9980853574220404
+RandomForest,SURFTEMP,max_distance,max_time_dist,test,R²,0.8401322403351426
+RandomForest,SURFTEMP,max_distance,max_time_dist,test,RMSE,1.8584354552398406
+RandomForest,SURFTEMP,max_distance,max_time_dist,test,MAE,1.1382468062946627
+RandomForest,SURFTEMP,max_distance,max_time_dist,test,Explained Var,0.8402065117355815

@@ -1,0 +1,23 @@
+ML Model Summary
+==================================================
+Model: ElasticNet
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'alpha': 1.0, 'l1_ratio': 0.5}
+Split Strategy: random (overfit)
+
+Metrics:
+  TRAIN:
+    R²: 0.9027
+    RMSE: 1.0971
+    MAE: 0.7153
+    Explained Var: 0.9027
+  TEST:
+    R²: 0.8968
+    RMSE: 1.1116
+    MAE: 0.7358
+    Explained Var: 0.8969
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.0059
+  Status: GOOD GENERALIZATION

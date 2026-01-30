@@ -1,0 +1,31 @@
+ML Model Summary
+==================================================
+Model: Ridge
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'alpha': 1.0}
+Split Strategy: random_islands (random)
+
+Split Info:
+  Train samples: 3471
+  Test samples: 520
+  Train islands: 14
+  Test islands: 4
+  Avg distance (hours): 2848.8
+  Min distance (hours): 40.5
+
+Metrics:
+  TRAIN:
+    R²: 0.9324
+    RMSE: 0.9641
+    MAE: 0.6296
+    Explained Var: 0.9324
+  TEST:
+    R²: 0.6714
+    RMSE: 0.8898
+    MAE: 0.6806
+    Explained Var: 0.7391
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.2610
+  Status: HIGH OVERFITTING

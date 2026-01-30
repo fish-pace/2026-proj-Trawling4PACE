@@ -8,9 +8,7 @@
 | Punya Puthukulangara      | punyaravichandran        |
 | Victoria Abunaw      | opisthoproctus       |
 | Haley Synan      | hsynan       |
-| Frederic Bonou | FREDERICBONOU |
 | Leandro Machado | leandrometeoro |
-
 
 ## Background
 

@@ -1,0 +1,23 @@
+ML Model Summary
+==================================================
+Model: Lasso
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'alpha': 1.0}
+Split Strategy: random (overfit)
+
+Metrics:
+  TRAIN:
+    R²: 0.9018
+    RMSE: 1.1024
+    MAE: 0.7188
+    Explained Var: 0.9018
+  TEST:
+    R²: 0.8961
+    RMSE: 1.1157
+    MAE: 0.7392
+    Explained Var: 0.8961
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.0057
+  Status: GOOD GENERALIZATION

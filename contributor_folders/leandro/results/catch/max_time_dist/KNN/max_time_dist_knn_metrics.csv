@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,train,R²,-0.12752678760542957
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,train,RMSE,0.8909824473448464
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,train,MAE,0.7017545411154557
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,train,Explained Var,-0.1272750309285724
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,test,R²,-0.41983341922190354
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,test,RMSE,0.9519442432565888
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,test,MAE,0.8158847078665905
+KNN,EXPCATCHNUM_log,max_distance,max_time_dist,test,Explained Var,-0.1791781240389596

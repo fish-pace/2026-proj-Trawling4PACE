@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,train,R²,0.0
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,train,RMSE,0.8390845298158897
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,train,MAE,0.6702154748466218
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,train,Explained Var,-2.220446049250313e-16
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,test,R²,-0.021588631112481993
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,test,RMSE,0.807478263515445
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,test,MAE,0.6703887065423091
+ElasticNet,EXPCATCHNUM_log,max_distance,max_time_dist,test,Explained Var,0.0

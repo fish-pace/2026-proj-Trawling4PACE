@@ -1,0 +1,31 @@
+ML Model Summary
+==================================================
+Model: GradientBoosting
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.1, 'subsample': 0.8}
+Split Strategy: max_distance (max_time_dist)
+
+Split Info:
+  Train samples: 3016
+  Test samples: 975
+  Train islands: 14
+  Test islands: 4
+  Avg distance (hours): 2462.1
+  Min distance (hours): 59.4
+
+Metrics:
+  TRAIN:
+    R²: 0.9993
+    RMSE: 0.0737
+    MAE: 0.0529
+    Explained Var: 0.9993
+  TEST:
+    R²: 0.8358
+    RMSE: 1.8834
+    MAE: 1.1131
+    Explained Var: 0.8361
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.1635
+  Status: HIGH OVERFITTING
