@@ -1,0 +1,23 @@
+ML Model Summary
+==================================================
+Model: GradientBoosting
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.1, 'subsample': 0.8}
+Split Strategy: random (overfit)
+
+Metrics:
+  TRAIN:
+    R²: 0.9990
+    RMSE: 0.1136
+    MAE: 0.0802
+    Explained Var: 0.9990
+  TEST:
+    R²: 0.9969
+    RMSE: 0.1918
+    MAE: 0.1011
+    Explained Var: 0.9969
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.0020
+  Status: GOOD GENERALIZATION

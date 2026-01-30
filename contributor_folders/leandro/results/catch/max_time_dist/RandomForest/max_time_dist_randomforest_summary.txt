@@ -1,0 +1,31 @@
+ML Model Summary
+==================================================
+Model: RandomForest
+Target: EXPCATCHNUM_log
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad', 'BOTSALIN', 'BOTTEMP', 'SURFTEMP', 'SURFSALIN', 'pace_carbon_phyto_log', 'pace_carbon_phyto_grad_log', 'pace_chlor_a_log', 'pace_chlor_a_grad_log', 'pace_poc_log', 'pace_Kd_490', 'pace_poc_grad_log']
+Parameters: {'n_estimators': 100, 'max_depth': 15, 'min_samples_split': 5, 'min_samples_leaf': 2}
+Split Strategy: max_distance (max_time_dist)
+
+Split Info:
+  Train samples: 659
+  Test samples: 397
+  Train islands: 4
+  Test islands: 3
+  Avg distance (hours): 614.1
+  Min distance (hours): 60.9
+
+Metrics:
+  TRAIN:
+    R²: 0.0798
+    RMSE: 0.8049
+    MAE: 0.6390
+    Explained Var: 0.0798
+  TEST:
+    R²: 0.0164
+    RMSE: 0.7923
+    MAE: 0.6341
+    Explained Var: 0.0164
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.0634
+  Status: MODERATE OVERFITTING

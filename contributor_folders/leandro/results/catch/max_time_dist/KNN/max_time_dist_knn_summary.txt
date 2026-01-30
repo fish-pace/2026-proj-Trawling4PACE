@@ -1,0 +1,31 @@
+ML Model Summary
+==================================================
+Model: KNN
+Target: EXPCATCHNUM_log
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad', 'BOTSALIN', 'BOTTEMP', 'SURFTEMP', 'SURFSALIN', 'pace_carbon_phyto_log', 'pace_carbon_phyto_grad_log', 'pace_chlor_a_log', 'pace_chlor_a_grad_log', 'pace_poc_log', 'pace_Kd_490', 'pace_poc_grad_log']
+Parameters: {'n_neighbors': 5, 'weights': 'distance'}
+Split Strategy: max_distance (max_time_dist)
+
+Split Info:
+  Train samples: 659
+  Test samples: 397
+  Train islands: 4
+  Test islands: 3
+  Avg distance (hours): 614.1
+  Min distance (hours): 60.9
+
+Metrics:
+  TRAIN:
+    R²: -0.1275
+    RMSE: 0.8910
+    MAE: 0.7018
+    Explained Var: -0.1273
+  TEST:
+    R²: -0.4198
+    RMSE: 0.9519
+    MAE: 0.8159
+    Explained Var: -0.1792
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.2923
+  Status: HIGH OVERFITTING

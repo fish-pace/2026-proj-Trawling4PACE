@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+RandomForest,EXPCATCHNUM_log,random_islands,random,train,R²,0.07263373901327719
+RandomForest,EXPCATCHNUM_log,random_islands,random,train,RMSE,0.7846051928765551
+RandomForest,EXPCATCHNUM_log,random_islands,random,train,MAE,0.6241504435855363
+RandomForest,EXPCATCHNUM_log,random_islands,random,train,Explained Var,0.0726741162932445
+RandomForest,EXPCATCHNUM_log,random_islands,random,test,R²,-0.02398223705952285
+RandomForest,EXPCATCHNUM_log,random_islands,random,test,RMSE,0.877370211524553
+RandomForest,EXPCATCHNUM_log,random_islands,random,test,MAE,0.6452870938097055
+RandomForest,EXPCATCHNUM_log,random_islands,random,test,Explained Var,0.06594910452721836

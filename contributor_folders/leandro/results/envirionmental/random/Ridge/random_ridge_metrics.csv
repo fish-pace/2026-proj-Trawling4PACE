@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+Ridge,SURFTEMP,random_islands,random,train,R²,0.9323985901169871
+Ridge,SURFTEMP,random_islands,random,train,RMSE,0.9641264387569873
+Ridge,SURFTEMP,random_islands,random,train,MAE,0.6296250152886604
+Ridge,SURFTEMP,random_islands,random,train,Explained Var,0.9323985901169871
+Ridge,SURFTEMP,random_islands,random,test,R²,0.6714156879917934
+Ridge,SURFTEMP,random_islands,random,test,RMSE,0.8898178762673769
+Ridge,SURFTEMP,random_islands,random,test,MAE,0.6805691847850738
+Ridge,SURFTEMP,random_islands,random,test,Explained Var,0.7390647428675501

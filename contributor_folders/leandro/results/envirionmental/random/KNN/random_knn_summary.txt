@@ -1,0 +1,31 @@
+ML Model Summary
+==================================================
+Model: KNN
+Target: SURFTEMP
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad']
+Parameters: {'n_neighbors': 5, 'weights': 'distance'}
+Split Strategy: random_islands (random)
+
+Split Info:
+  Train samples: 3471
+  Test samples: 520
+  Train islands: 14
+  Test islands: 4
+  Avg distance (hours): 2848.8
+  Min distance (hours): 40.5
+
+Metrics:
+  TRAIN:
+    R²: 1.0000
+    RMSE: 0.0000
+    MAE: 0.0000
+    Explained Var: 1.0000
+  TEST:
+    R²: 0.4698
+    RMSE: 1.1304
+    MAE: 0.8126
+    Explained Var: 0.5839
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.5302
+  Status: HIGH OVERFITTING

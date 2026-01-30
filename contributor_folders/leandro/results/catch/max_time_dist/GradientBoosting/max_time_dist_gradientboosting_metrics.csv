@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,train,R²,0.0797073464110043
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,train,RMSE,0.8049496051565226
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,train,MAE,0.639195021531482
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,train,Explained Var,0.0797205571730879
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,test,R²,0.015040267816000652
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,test,RMSE,0.7928701223379411
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,test,MAE,0.630455375608365
+GradientBoosting,EXPCATCHNUM_log,max_distance,max_time_dist,test,Explained Var,0.017209145625722067

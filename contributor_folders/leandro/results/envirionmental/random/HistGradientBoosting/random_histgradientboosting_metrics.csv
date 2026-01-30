@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+HistGradientBoosting,SURFTEMP,random_islands,random,train,R²,0.9960293260261266
+HistGradientBoosting,SURFTEMP,random_islands,random,train,RMSE,0.20458943838424737
+HistGradientBoosting,SURFTEMP,random_islands,random,train,MAE,0.07247621682517734
+HistGradientBoosting,SURFTEMP,random_islands,random,train,Explained Var,0.9960293260261266
+HistGradientBoosting,SURFTEMP,random_islands,random,test,R²,0.8883807113381764
+HistGradientBoosting,SURFTEMP,random_islands,random,test,RMSE,0.924808431264837
+HistGradientBoosting,SURFTEMP,random_islands,random,test,MAE,0.56624317081754
+HistGradientBoosting,SURFTEMP,random_islands,random,test,Explained Var,0.8890934748791923

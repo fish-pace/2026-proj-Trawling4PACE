@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+ExtraTrees,EXPCATCHNUM_log,random,overfit,train,R²,0.0939687915974553
+ExtraTrees,EXPCATCHNUM_log,random,overfit,train,RMSE,0.796243105577299
+ExtraTrees,EXPCATCHNUM_log,random,overfit,train,MAE,0.6263061274352776
+ExtraTrees,EXPCATCHNUM_log,random,overfit,train,Explained Var,0.0939687915974553
+ExtraTrees,EXPCATCHNUM_log,random,overfit,test,R²,-0.04445355379466709
+ExtraTrees,EXPCATCHNUM_log,random,overfit,test,RMSE,0.799991692650169
+ExtraTrees,EXPCATCHNUM_log,random,overfit,test,MAE,0.6648525680322243
+ExtraTrees,EXPCATCHNUM_log,random,overfit,test,Explained Var,-0.0401186137186782

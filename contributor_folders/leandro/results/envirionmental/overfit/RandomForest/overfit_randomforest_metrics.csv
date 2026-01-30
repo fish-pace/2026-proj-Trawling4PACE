@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+RandomForest,SURFTEMP,random,overfit,train,R²,0.9983277821159218
+RandomForest,SURFTEMP,random,overfit,train,RMSE,0.1438571871145834
+RandomForest,SURFTEMP,random,overfit,train,MAE,0.023127149771535918
+RandomForest,SURFTEMP,random,overfit,train,Explained Var,0.9983285770094719
+RandomForest,SURFTEMP,random,overfit,test,R²,0.9973619507381395
+RandomForest,SURFTEMP,random,overfit,test,RMSE,0.1777591238713601
+RandomForest,SURFTEMP,random,overfit,test,MAE,0.030421195667773227
+RandomForest,SURFTEMP,random,overfit,test,Explained Var,0.9973732429140711

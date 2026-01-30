@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+ElasticNet,EXPCATCHNUM_log,random,overfit,train,R²,0.0
+ElasticNet,EXPCATCHNUM_log,random,overfit,train,RMSE,0.8365157191474086
+ElasticNet,EXPCATCHNUM_log,random,overfit,train,MAE,0.6678693021623491
+ElasticNet,EXPCATCHNUM_log,random,overfit,train,Explained Var,0.0
+ElasticNet,EXPCATCHNUM_log,random,overfit,test,R²,-0.0026443806969091987
+ElasticNet,EXPCATCHNUM_log,random,overfit,test,RMSE,0.7838164490684866
+ElasticNet,EXPCATCHNUM_log,random,overfit,test,MAE,0.6433361891983624
+ElasticNet,EXPCATCHNUM_log,random,overfit,test,Explained Var,0.0

@@ -1,0 +1,13 @@
+feature,type,importance
+curl_stress_curl,permutation,0.016039730928356578
+fsle_fsle_max,permutation,0.014095329608959161
+glorys_mlotst_surface,permutation,0.014511497195847812
+glorys_thetao_surface,permutation,2.141784080197472
+glorys_vo_surface,permutation,0.016017341801194372
+glorys_thetao_surface_grad,permutation,0.053747780962544976
+curl_stress_curl,shap,0.08595385665199556
+fsle_fsle_max,shap,0.08762754093593952
+glorys_mlotst_surface,shap,0.11203216109601657
+glorys_thetao_surface,shap,2.045337127956614
+glorys_vo_surface,shap,0.11063406517338022
+glorys_thetao_surface_grad,shap,0.16595403390262775

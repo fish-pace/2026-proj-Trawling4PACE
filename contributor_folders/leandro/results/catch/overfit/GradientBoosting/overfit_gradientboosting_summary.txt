@@ -1,0 +1,23 @@
+ML Model Summary
+==================================================
+Model: GradientBoosting
+Target: EXPCATCHNUM_log
+Features: ['curl_stress_curl', 'fsle_fsle_max', 'glorys_mlotst_surface', 'glorys_thetao_surface', 'glorys_vo_surface', 'glorys_thetao_surface_grad', 'BOTSALIN', 'BOTTEMP', 'SURFTEMP', 'SURFSALIN', 'pace_carbon_phyto_log', 'pace_carbon_phyto_grad_log', 'pace_chlor_a_log', 'pace_chlor_a_grad_log', 'pace_poc_log', 'pace_Kd_490', 'pace_poc_grad_log']
+Parameters: {'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.1, 'subsample': 0.8}
+Split Strategy: random (overfit)
+
+Metrics:
+  TRAIN:
+    R²: 0.0929
+    RMSE: 0.7967
+    MAE: 0.6254
+    Explained Var: 0.0929
+  TEST:
+    R²: -0.0393
+    RMSE: 0.7980
+    MAE: 0.6629
+    Explained Var: -0.0360
+
+Overfitting Analysis:
+  R² Gap (train-test): 0.1321
+  Status: MODERATE OVERFITTING

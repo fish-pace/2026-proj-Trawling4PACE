@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+KNN,SURFTEMP,max_distance,max_time_dist,train,R²,1.0
+KNN,SURFTEMP,max_distance,max_time_dist,train,RMSE,3.4686738325408884e-16
+KNN,SURFTEMP,max_distance,max_time_dist,train,MAE,1.35464878336226e-16
+KNN,SURFTEMP,max_distance,max_time_dist,train,Explained Var,1.0
+KNN,SURFTEMP,max_distance,max_time_dist,test,R²,0.7911302198342218
+KNN,SURFTEMP,max_distance,max_time_dist,test,RMSE,2.124246164132161
+KNN,SURFTEMP,max_distance,max_time_dist,test,MAE,1.3574616626776062
+KNN,SURFTEMP,max_distance,max_time_dist,test,Explained Var,0.8004220253407164

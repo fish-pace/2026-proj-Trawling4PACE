@@ -1,0 +1,9 @@
+model,target,split_strategy,split_folder,split,metric,value
+Ridge,SURFTEMP,max_distance,max_time_dist,train,R²,0.9103057607252725
+Ridge,SURFTEMP,max_distance,max_time_dist,train,RMSE,0.8239829777734083
+Ridge,SURFTEMP,max_distance,max_time_dist,train,MAE,0.5744156315439091
+Ridge,SURFTEMP,max_distance,max_time_dist,train,Explained Var,0.9103057607252725
+Ridge,SURFTEMP,max_distance,max_time_dist,test,R²,0.8902568520120855
+Ridge,SURFTEMP,max_distance,max_time_dist,test,RMSE,1.5397696133428018
+Ridge,SURFTEMP,max_distance,max_time_dist,test,MAE,0.8540631784975727
+Ridge,SURFTEMP,max_distance,max_time_dist,test,Explained Var,0.9065587684692271
