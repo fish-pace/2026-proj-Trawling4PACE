@@ -1,0 +1,2 @@
+# FINAL_NOTEBOOKS
+Our finalized notebook creating the species abundance models can be found in ```Trawling4PACE_FINAL.ipynb```. The slide deck that was used during the project presentation can be found in ```trawling4PACE.pptx```. Code used for matching the catch data to the remotely-sensed variables can be found in ```/2026_proj_Trawling4PACE/contributor_folders/leandro``` and ```/2026_proj_Trawling4PACE/contributor_folders/MMunley```
