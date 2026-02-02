@@ -11,23 +11,24 @@
 | Leandro Machado | leandrometeoro |
 | Frederic Bonou | FREDERICBONOU |
 
+## Research question
+* Can we predict silver hake abundance using optical data? 
+* How do performance of different models compare (random forest and boosted regression tree)
 
-## Background
-
-## Goals
-* Map fishing hotspots for silver hake in the NorthWest Atlantic 
 
 ## Datasets
 * NOAA NEFSC Bottom Trawl Survey Catch data from Spring 2024, Fall 2024, Spring 2025
-* PACE 
+* PACE Rrs
+* AVISO Finite Size Lyapunov Exponent (FSLE)
+* Copernicus sea surface wind and stress 
 
 ## Planning 
  Initial idea: 
 * [Brainstorming google doc](https://docs.google.com/document/d/1xNHTZDroEdn7dWCZV7hvGdUV4cpnyijDJrtq9_-6brM/edit?tab=t.ggfqs8b05i7f)
 * Ideation Presentation: Add link
 * Slack channel: [proj-fishing-zones](https://app.slack.com/client/T09FQF586CA/C0AA99TL41K)
-* Project google drive: Add link
-* Final presentation: Add link
+* Final presentation: [trawling4PACE.pptx](https://github.com/fish-pace/2026-proj-Trawling4PACE/blob/main/final_notebooks/trawling4PACE.pptx)
+* Code: [Trawling4PACE_FINAL.ipynb](https://github.com/fish-pace/2026-proj-Trawling4PACE/blob/main/final_notebooks/Trawling4PACE_FINAL.ipynb)
 
 **Folder Structure**
 * `contributor_folders` (optional) Each contributor can make a folder here and 
@@ -37,14 +38,3 @@ can be shared here. Make sure to communicate so that you limit merge conflicts.
 * `scripts` Shared scripts or functions can be added here.
 * `data` Shared dataset can be shared here. Note, do not put large datasets on GitHub. Speak to the organizers if you 
 need to share large datasets. 
-
-
-
-## Workflow/Roadmap
-
-## Results/Findings
-
-## Lessons Learned
-
-## References
-
